@@ -1,5 +1,6 @@
 function spy(func) {
   function wrapper(...args) {
+    console.log(args)
     wrapper.calls.push(args);
     return func.apply(this,arguments);
   }
