@@ -1,7 +1,13 @@
-body{
-    background-color: blue;
+#container{
+    width: 95vw;
+    height: 95vh;
+    text-align: center;
 }
 
-#changeBtn{
-    
+button{
+    margin:25%;
+    padding: 2em;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
 }
