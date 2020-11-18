@@ -17,7 +17,7 @@ let hexArray = [
 
 let changeColorFn = () => {
     let backgroundColor = container.style.backgroundColor
-    let index = Math.round(Math.random() * hexArray.length)
+    let index = Math.round(Math.random() * hexArray.length- 1)
     if (hexArray[index] != backgroundColor) {
         container.style.backgroundColor = hexArray[index];
         result.innerText = `Background Color has changed to ${hexArray[index]}`;
