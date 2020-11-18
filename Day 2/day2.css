@@ -1,0 +1,18 @@
+body{
+    overflow: hidden;
+}
+#container {
+    width: 98vw;
+    height: 98vh;
+    text-align: center;
+}
+
+#changeBtn {
+    margin: 35%;
+}
+
+#result {
+    font-family: monospace;
+    font-size: 15pt;
+    text-align: justify;
+}
