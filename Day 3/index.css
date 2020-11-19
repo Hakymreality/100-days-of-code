@@ -13,9 +13,13 @@ body{
 }
 
 .large-text{
-    font-size: 30pt;
+    font-size: 25pt;
 }
 
 .center-text{
+    text-align: center;
+}
+
+#quoteAuthor {
     text-align: center;
 }
