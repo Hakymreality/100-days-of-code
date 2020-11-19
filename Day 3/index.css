@@ -1,0 +1,17 @@
+body{
+    background-color: slategrey;
+}
+
+#quoteBox{
+    margin: auto;
+    height: 30em;
+    width: 30em;
+    background-color: snow;
+}
+#generateQuote{
+    margin: 2em 14em 2em;
+}
+
+.large-text{
+    font-size: 30pt;
+}
