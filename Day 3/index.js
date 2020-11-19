@@ -34,7 +34,7 @@ let quoteAuthor = document.getElementById("quoteAuthor");
 let generateQuote = document.getElementById("generateQuote")
 
 
-function newQuoteFn() {
+let newQuoteFn = () => {
     let index = Math.round(Math.random() * quoteArray.length);
     let quoteIndex = quoteArray[index];
     if (quoteIndex.quote != mainQuote.innerText) {
