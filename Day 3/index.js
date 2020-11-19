@@ -1,3 +1,4 @@
+"use strict"
 let quoteArray = [{
         author: "Nelson Mandela",
         quote: "The greatest glory in living lies not in never falling, but in rising every time we fall",
@@ -35,7 +36,7 @@ let generateQuote = document.getElementById("generateQuote")
 let newQuoteFn = () => {
     let index = Math.round(Math.random() * quoteArray.length);
     let quoteIndex = quoteArray[index];
-    if (quoteIndex.quote != mainQuote.innerText) {
+    if (quoteIndex.quote !== mainQuote.innerText) {
         mainQuote.innerText = quoteIndex.quote;
         quoteAuthor.innerText = quoteIndex.author;
     }
