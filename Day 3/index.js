@@ -1,4 +1,3 @@
-
 let quoteArray = [{
         author: "Nelson Mandela",
         quote: "The greatest glory in living lies not in never falling, but in rising every time we fall",
@@ -32,7 +31,6 @@ let quoteArray = [{
 let mainQuote = document.getElementById("mainQuote");
 let quoteAuthor = document.getElementById("quoteAuthor");
 let generateQuote = document.getElementById("generateQuote")
-
 
 let newQuoteFn = () => {
     let index = Math.round(Math.random() * quoteArray.length);
