@@ -15,3 +15,7 @@ body{
 .large-text{
     font-size: 30pt;
 }
+
+.center-text{
+    text-align: center;
+}
