@@ -14,5 +14,10 @@ function setResultValue() {
 function clearResultValue() {
     result.innerText = ""
 }
-submitBtn.addEventListener("click",setResultValue)
-setTimeout(clearResultValue, 2000);
+
+function setAndClearOutput(){
+    setResultValue()
+    setTimeout(clearResultValue, 5000);
+}
+
+submitBtn.addEventListener("click",setAndClearOutput)
