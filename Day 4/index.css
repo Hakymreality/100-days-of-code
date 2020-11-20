@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
-#container{
+.container{
     width: 50%;
     height: 50%;
     background-color: springgreen;
+    padding: 3em;
 }
 
+
+#result{
+    margin: 5px;
+    font-size: large;
+}
 .center--text{
     text-align: center;
 }
@@ -34,14 +40,12 @@
     color: white;
     transform: scale(1.1);
 }
-.padding--3em{
-    padding: 3em;
-}
+
 
 .padding--1em{
     padding: 0.5em;
 }
 
 .margin--auto{
-    margin: auto;
+    margin: auto auto 2em;
 }
