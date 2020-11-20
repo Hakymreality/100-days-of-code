@@ -8,7 +8,7 @@ function getTextValue() {
 }
 
 function setResultValue() {
-    result.innerText = `Your Message is ${getTextValue()}`;
+    result.innerText = `Your Message is:     ${getTextValue()}`;
 }
 
 function clearResultValue() {
