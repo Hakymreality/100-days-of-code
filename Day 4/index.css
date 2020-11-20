@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 50%;
+    height: 50%;
+    background-color: springgreen;
+}
+
+.center--text{
+    text-align: center;
+}
+
+.center--form{
+    margin: auto;
+}
+
+.newline{
+    display: block;
+}
+
+.button{
+    border: 2px solid steelblue;
+    margin: 0.8em;
+}
+.padding--3em{
+    padding: 3em;
+}
+
+.padding--1em{
+    padding: 0.5em;
+}
+
+.margin--auto{
+    margin: auto;
+}
