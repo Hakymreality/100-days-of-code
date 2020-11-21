@@ -1,0 +1,38 @@
+body {
+  background-color: burlywood;
+}
+
+#container {
+  height: 80vh;
+  width: 40vw;
+  box-shadow: 2px 2px coral;
+  background-color: chocolate;
+  margin: auto;
+}
+
+
+.center--text{
+    text-align: center;
+}
+#counterText{
+    font-size: 50pt;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.button{
+    padding: 0.9em;
+    margin: 0 0.3em;
+    background-color: coral;
+    color: cornsilk;
+    border: 0;
+}
+.button:hover{
+    background-color: transparent;
+    color: white;
+    border: coral 1px solid;
+}
