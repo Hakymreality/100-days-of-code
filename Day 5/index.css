@@ -33,6 +33,6 @@ body {
 }
 .button:hover{
     background-color: transparent;
-    color: white;
+    color: black;
     border: coral 1px solid;
 }
