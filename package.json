@@ -1,0 +1,26 @@
+{
+  "name": "100-days-of-code",
+  "version": "1.0.0",
+  "description": "Formatting for my challenge",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^7.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hakymreality/100-days-of-code.git"
+  },
+  "keywords": [
+    "100daysofcodechallenge"
+  ],
+  "author": "Olamide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hakymreality/100-days-of-code/issues"
+  },
+  "homepage": "https://github.com/Hakymreality/100-days-of-code#readme"
+}
