@@ -10,6 +10,10 @@
     height: 1em;
     color: white;
 }
+.controls:hover{
+    background-color: white;
+    color: blue;
+}
 #image-container{
     width: 80vw;
     height: auto;
