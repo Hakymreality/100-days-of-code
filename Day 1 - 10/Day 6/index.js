@@ -9,3 +9,28 @@ let imageArray = [
   "./Images/team-preparation.png",
   "./Images/profile.png",
 ];
+
+let count = 0;
+
+function checkCount() {
+        if (count === 5) {
+          count = 0;
+        }else if (count === -1) {
+            count = 0
+        }
+        return count;
+}
+function nextImage() {
+    count++;
+    checkCount();
+    image.src = imageArray[count]
+}
+
+function previousImage() {
+    count--;
+    checkCount();
+    image.src = imageArray[count]
+}
+
+leftControl.addEventListener("click",previousImage);
+rightControl.addEventListener("click",nextImage)
