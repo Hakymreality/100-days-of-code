@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.controls{
+    background-color: blue;
+    padding: 0.3em;
+    font-size: 20pt;
+    height: 1em;
+    color: white;
+}
+#image-container{
+    width: 80vw;
+    height: auto;
+    border: 5px blue solid;
+    margin: auto;
+}
+
+.slider-img{
+    display: block;
+    width: 25em;
+    height: auto;
+}
