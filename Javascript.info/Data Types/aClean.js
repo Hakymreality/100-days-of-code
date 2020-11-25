@@ -5,7 +5,7 @@ function aclean(arr) {
                     .split("")
                     .sort()
                     .join("");
-    newMap.set(i,sorted);
+    newMap.set(sorted,i);
   }
   return Array.from(newMap)
 }
