@@ -1,6 +1,5 @@
 function byField(prop) {
-        return (a,b)=>a[prop] > b[prop] ? 1 : -1;
-
+  return (a, b) => (a[prop] > b[prop] ? 1 : -1);
 }
 
 let users = [
@@ -10,4 +9,4 @@ let users = [
   { name: "Pete", age: 18, surname: "Peterson" },
 ];
 
-console.log(users.sort(byField("age")))
+console.log(users.sort(byField("age")));
